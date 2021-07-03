@@ -1,0 +1,107 @@
+h1{
+    color: black;
+    font-family:cursive;
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 5px rgb(235, 10, 10);
+    text-align: center;
+
+}
+h1:hover{
+    background-color: rgba(230, 236, 236, 0.2);
+    color: rgb(55, 55, 99);
+    font-size: 80px;
+    cursor:grab;
+}
+caption{
+    color: black;
+    font-family:cursive;
+    font-size: 30px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 5px rgb(235, 10, 10);
+    text-align: center;
+    padding: 3px;
+    margin: 10px;
+
+}
+caption:hover{
+    background-color: rgba(230, 236, 236, 0.2);
+    color: rgb(3, 3, 90);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(17, 17, 16);
+    color: ivory;
+}
+table{
+    width: 50%;
+   
+    margin: 40px;
+    
+}
+table,th,td {
+    border:1px solid rgb(116, 96, 96);
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+    text-align:center;
+    column-span: 2;
+    color: rgb(240, 239, 238);
+   text-shadow: crimson;
+   font-size: larger;
+   font-weight: bold;
+}
+#t1{
+    box-shadow: 10px 10px 5px rgb(61, 3, 3);
+    text-shadow: 2px 2px 5px rgb(11, 183, 226);
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+#t3{
+    box-shadow: 10px 10px 5px rgb(3, 61, 13);
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px rgb(224, 12, 12);
+ 
+    text-align: center;
+}
+
+.a1{
+    background-color: rgb(29, 16, 16);
+}
+.a2{
+    background-color: rgb(49, 34, 34);
+}
+#th1 {
+    background-color: rgb(17, 17, 15);
+}
+#tb1 {
+    background-color: rgb(9, 9, 19);
+}
+#tf1 {
+    background-color: rgb(20, 17, 17);
+}
+img{
+    background-color: darkgray;
+    width: 50px;
+    height: 50px;
+
+}
+button{
+    color: white;
+    font-size: large;
+    background-color: rgb(50, 228, 59);
+    font-family: cursive;
+    font-weight: bold;
+}
+button:hover{
+border-radius: 2px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+background-color: rgb(9, 116, 9);
+}
